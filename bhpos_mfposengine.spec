@@ -24,6 +24,7 @@ BuildRequires:	libxml++-devel >= 2.6
 BuildRequires:	pkgconfig
 BuildRequires:	MySQL-devel
 BuildRequires:  cairomm-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 BananaPOS Point Of Sale Terminal engine libraries.

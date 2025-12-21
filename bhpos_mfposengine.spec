@@ -9,6 +9,11 @@ License:	GPL
 Group:		System/Libraries
 URL:		https://www.bananahead.com
 Source0:	ftp://bananahead.com/pub/bhpos2/stable/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	bhpos_commonlibs-devel >= 2.0.0
 BuildRequires:	bhpos_base >= 2.0.0
 BuildRequires:	bhpos_base-devel >= 2.0.0
